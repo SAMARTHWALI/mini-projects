@@ -1,65 +1,65 @@
 *{
-    border: 0px;
-    padding: 0px;
-    align-items: center;
+    margin: 0;
+    padding: 0;
 }
 body{
-    background-color: #f4a261;
+    background-color: #8ecae6;
     text-align: center;
-    align-content: center;
-    
-
 }
-#container{
-    height:75vmin;
-    width:65vmin;
+.container{
+    height: 70vh;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height:60vmin;
+    width:60vmin;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 1.5vmin;
-    background-color: #e9c46a;
-    border-radius: 10px;
-    margin-left: 525px;
-    
-  
-    
-    
+
 }
-.btn{
-    height: 12vmin;
-    width: 12vmin;
+.box{
+    height: 18vmin;
+    width: 18vmin;
     border-radius: 1rem;
+    border: none;
     box-shadow: 0 0 1rem rgba(0,0,0,0.3);
-    font-size: 7vmin;
+    font-size: 8vmin;
      color: #023047; 
     background-color: #d4a373;
-
-  
+    color: #f3d809;
 
 }
-#title{
-    font-size: 60px;
-    
-    font-family: monospace;
-    text-transform: uppercase;
+#reset-btn{
+    padding: 1.5rem;
+    background-color: #f3efec;
+    color:#090909 ;
+    border-radius: 1rem;
+    font-size: medium;
+    border: none;
 }
-input{
-    height: 50px;
-    width:65vmin;
-    background-color:#e9c46a ;
-    text-align: left;
-    font-size: 4vmin;
-    margin-left: 12px;
-    border-radius: 10px;
-    margin-bottom: 1vmin;
-    
+#new-btn{
+    padding: 1.5rem;
+    background-color: #f3efec;
+    color:#090909 ;
+    border-radius: 1rem;
+    font-size: medium;
+    border: none;
     
 }
-#btnc{
-    background-color: rgba(255, 0, 0, 0.366);
+#msg{
+    color: #e97014;
+    font-size: 8vmin;
 }
-#btn1,#btn2,#btn3 ,#btn4,#btn5,#btn6,#btn7,#btn8,#btn9,#btn0 {
-    color:white;
+.msg-container{
+    height: 30vmin;
+}
 
+.hide{
+    display:none;
 }
